@@ -7,4 +7,9 @@ using namespace std;
 
 int main() {
 	cout << "Awal Program" << endl; // penanda 1:...
-	
+	try {
+		array<int, 3> data = { 6, 7, 8 };
+		// pesan array integer 3 element
+		cout << data.at(5) << endl;
+		// memanggil earray elemen ke 5
+	}
